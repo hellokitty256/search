@@ -1,3 +1,9 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+}
+
+
 .nav-link {
     color: black;
     
@@ -9,12 +15,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .search-box {
-    
-    display: flex;
-    flex-direction: row;
-    border-radius: 25px;
+  border-color: #d0d0d0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  width: 525px;
+}
+
+.search-button {
+  background-color: #F8F9FA;
+  
+  margin: 11px 4px;
+  padding: 4px 12px;
+  border: none;
+}
+
+.search-button:hover {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(179, 178, 177);
 }
