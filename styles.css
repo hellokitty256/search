@@ -1,9 +1,15 @@
+.nav-link {
+    color: black;
+    
+}
+
+
 .search-area {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90%;
+   
 }
 
 .search-box {
