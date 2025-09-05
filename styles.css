@@ -1,12 +1,14 @@
 body {
     font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 
 .nav-link {
     color: black;
-    
+    font-weight: 400;
 }
 
 
@@ -15,7 +17,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    line-height: 22px;
+    border-bottom: 8px solid transparent;
+    padding-top: 14px;
+    overflow-x: hidden;
 }
 
 .search-box {
@@ -30,11 +35,19 @@ body {
 }
 
 .search-button {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   background-color: #F8F9FA;
-  
+  color: #3c4043;
   margin: 11px 4px;
-  padding: 4px 12px;
-  border: none;
+  padding: 0px 16px;
+  border: 1px solid #F8F9FA;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  border-radius: 8px;
 }
 
 .search-button:hover {
