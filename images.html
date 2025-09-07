@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="styles.css">
         
     </head>
-    <body>
-        <!--Upper right links-->               
+    <body class="images-body">
         
+        <!--Upper right links-->               
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Google Search</a>
@@ -23,15 +23,24 @@
         </ul>
 
         <!--Search box area-->
-         <div class="search-area">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" height="92" width="272"/>         
+        <div class="images-search-area">
+            <div class="images-search">  
+            <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" height="92" width="272"/>         
+                <span class="images" aria-hidden="true">Images</span>
+            </div>
+        </div>
+        <div class="i-search">
                 <form action="https://www.google.com/search" autocomplete="off" method="GET" role="search">
-                    <input type="text" name="q"  class="search-box">
-                    <input type="submit" value="Google Search" class="search-button">
+                    <div>
+                        <div class="middle">
+                            <div class="search-bar-1">
+                                <div class="search-bar">
+                    <input type="text" name="q"  class="images-search-box">
+                    <input type="submit" value="Google Search" class="images-search-button">
                     
                 </form>
         
             </div>
-
+         </div>
     </body>
 </html>
