@@ -85,3 +85,11 @@ body {
     border-width: 1px;
     border-color: rgb(179, 178, 177);
 }
+
+.images-search-box {
+  width: 525px;
+}
+
+.images-search-button {
+  margin-left: 205px;
+}
