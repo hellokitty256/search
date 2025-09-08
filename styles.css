@@ -239,3 +239,29 @@ body {
   border-width: 1px;
   border-color: rgb(179, 178, 177);
 }
+
+.advanced-body {
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  min-height: 100%;
+  position: relative;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header-bar {
+  color: #d93025;
+  margin: 25px 35px;
+  font-size: 20px;
+}
+
+.advanced-search-area {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
