@@ -1,8 +1,15 @@
 body {
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 100;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -24,6 +31,7 @@ body {
 }
 
 .search-box {
+  font-size: 14px;
   border-color: #d0d0d0;
   border-style: solid;
   border-width: 1px;
@@ -182,18 +190,16 @@ body {
   line-height: 22px;
   padding-top: 14px;
   border-color: #d0d0d0;
-  border style: solid;
+  border-style: solid;
   border-width: 1px;
   border-radius: 25px;
   resize: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   padding-top: 14px;
-  overflow-x: hidden;
   background-color: transparent;
   color: rgba(0, 0, 0, .87);
   word-wrap: break-word;
-
 }
 
 .middle2 {
