@@ -391,15 +391,3 @@ body {
   
 }
 
-.advanced-header {
-  height: 50px;
-}
-
-.advanced-header-logo {
-  color: black;
-  padding: 10px;
-}
-
-.advanced-header-links {
-  text-align: right;
-}
