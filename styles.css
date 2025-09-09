@@ -291,3 +291,60 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+
+.advancedformsep {
+  float: left;
+  min-width: 167px;
+  min-height: 41px;
+  width: 50px;
+}
+
+.advancedformfield2 {
+  width: 100%;
+  clear: both;
+}
+
+.advanceddivborder {
+  clear: both;
+}
+
+.labeldiv {
+  float: left;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.advancedformfield3 {
+  float: left;
+  min-width: 167px;
+  min-height: 41px;
+  width: 50%;
+}
+
+.advancedformfield4 {
+  padding-right: 16px;
+}
+
+#all {
+  width: 100%;
+  text-align: left;
+}
+
+.advanceforminput {
+  height: 25px;
+  padding: 1px 8px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  font-size: 13px;
+  border-top: 1px solid #c0c0c0;
+}
+
+.exactword {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
