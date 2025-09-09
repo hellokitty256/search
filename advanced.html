@@ -12,16 +12,23 @@
     </head>
     
     <body class="advanced-body">
-    <!--Upper right links-->               
         
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
+        <div class="d-flex mb-3">
+            <div class="me-auto p-2">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" height="80%" width="25%"/>
+                </a>
+            </div>
+            <div class="p-2">
                 <a class="nav-link" href="index.html">Google Search</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="images.html">Google Images</a>   
-            </li>
-        </ul>
+            </div>
+            <div class="p-2">
+                <a class="nav-link" href="images.html">Google Images</a>
+            </div>
+        </div>
+    
+    
+  
 
         <!--Search box areas-->
         <div class="header-bar">
@@ -60,7 +67,7 @@
                     </div>
                     <div class="advancedformfield3">
                         <div class="advancedformfield4">
-                            <input class="advancedforminput" value="" name="as_epq" type="text"/>
+                            <input id="phrase" class="advancedforminput" value="" name="as_epq" type="text"/>
                         </div>
                     </div>
                 </div>
@@ -72,7 +79,7 @@
                     </div>
                     <div class="advancedformfield3">
                         <div class="advancedformfield4">
-                            <input class="advancedforminput" value="" name="as_oq" type="text"/>
+                            <input id="none" class="advancedforminput" value="" name="as_oq" type="text"/>
                         </div>
                     </div>
                 </div>
@@ -84,8 +91,15 @@
                     </div>
                     <div class="advancedformfield3">
                         <div class="advancedformfield4">
-                            <input class="advancedforminput" value="" name="as_eq" type="text"/>
+                            <input id="these" class="advancedforminput" value="" name="as_eq" type="text"/>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="advancedformfield2">
+                <div class="advanceddivborder">
+                    <div class="advancedformfield3">
+                        <input class="advancedbutton" style="margin-left: 635px;" value="Advanced Search" type="submit">
                     </div>
                 </div>
             </div>
